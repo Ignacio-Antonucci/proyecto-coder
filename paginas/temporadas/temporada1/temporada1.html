@@ -10,38 +10,42 @@
 </head>
 
 <body>
-    <header>
-        <img src="../../../imagenes/universales/logobibliotecadelfreestyle.jpg" alt="Logo de biblioteca del freestyle">
-        <h1>Temporada 1 FMS Argentina</h1>
+    <header class="encabezado">
+        <img class="encabezado__logo" src="../../../imagenes/universales/logobibliotecadelfreestyle.jpg"
+            alt="Logo de biblioteca del freestyle">
+        <h1 class="encabezado__titulo">Temporada 1 FMS Argentina</h1>
 
     </header>
-<nav>
-    <ul>
-        <li><a href="../../../index.html">Inicio</a></li>
-        <li>Temporadas
-            <ul>
-                <li><a href="./temporada1.html">Temporada 1</a></li>
-                <li><a href="">Temporada 2</a></li>
-                <li><a href="">Temporada 3</a></li>
-                <li><a href="">Temporada 3</a></li>
-            </ul>
-        </li>
-        <li>competidores
-            <ul>
-                <li><a href="../../competidores/wos.html">Wos</a></li>
-                <li><a href="">Papo</a></li>
-                <li><a href="">Trueno</a></li>
-                <li><a href="">Stuart</a></li>
-            </ul>
-        </li>
-    </ul>
-    <form action="">
-        <label for="buscar">Busca algo en especifico?</label>
-        <input class="boton-buscar" id="buscar" type="search" placeholder="  Buscar...">
-        <input type="submit">
-      </form>
+    <nav class="barra-nav">
+        <ul class="barra-nav__opciones">
+            <li><a class="barra-nav__opciones--inicio" href="../../../index.html">Inicio</a></li>
+            <li class="barra-nav__opciones--temporadas">Temporadas
+                <ul>
+                    <li><a class="barra-nav__opciones--links" href="./temporada1.html">Temporada 1</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Temporada 2</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Temporada 3</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Temporada 3</a></li>
+                </ul>
+            </li>
+            <li class="barra-nav__opciones--competidores">competidores
+                <ul>
+                    <li><a class="barra-nav__opciones--links" href="../../competidores/wos.html">Wos</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Papo</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Trueno</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Stuart</a></li>
+                </ul>
+            </li>
+            <li class="barra-nav__busc"><label for="buscar">Busca algo en especifico?</label>
+                <form action="">
+
+                    <input class="barra-nav__busc--input" id="buscar" type="search" placeholder="  Buscar...">
+                    <input class="barra-nav__busc--boton" type="submit">
+                </form>
 
     </nav>
+    </li>
+    </ul>
+
 
     <aside>
         <img src="" alt="Imagen de mapa de la Argentina con los puntos exactos de cada jornada de la FMS">
@@ -55,9 +59,9 @@
     <main>
         <section>
 
-            <article>
+            <article class="art-info-predet">
 
-                <h2>Inicio de la FMS en Argentina</h2>
+                <h2 >Inicio de la FMS en Argentina</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ratione veniam cupiditate? Deserunt,
                     minima. Odit sapiente provident saepe obcaecati error, reiciendis quos eius possimus quae, quasi
@@ -70,7 +74,7 @@
 
             </article>
 
-            <article>
+            <article class="art-info-predet">
 
                 <h2>Elenco de esta temporada</h2>
                 <div>
@@ -90,7 +94,8 @@
                     <li><a href=""> Cacha</a></li>
                 </ul>
                 <div>
-                    <img src="../../../imagenes/temporada1/temporada1.jpg" alt="imagen de todos los competidores de la fms Argentina 2018 en el banco">
+                    <img src="../../../imagenes/temporada1/temporada1.jpg"
+                        alt="imagen de todos los competidores de la fms Argentina 2018 en el banco">
                 </div>
 
                 <h3>Host</h3>
@@ -119,11 +124,12 @@
 
         </section>
 
-<!--Iniciod e la secciond e la tabla finald e la temporada-->
+        <!--Iniciod e la secciond e la tabla finald e la temporada-->
+         <h2 class="divisor-de-sec">TABLA GENERAL DE FIN DE LA TEMPORADA</h2>
         <section>
-            <h2>TABLA GENERAL DE FIN DE LA TEMPORADA</h2>
+            <article class="art-info-predet">
             <table>
-                
+
                 <tr>
                     <th>Competidor</th>
                     <th>Posicion</th>
@@ -133,7 +139,7 @@
                     <th>Gr</th>
                     <th>P</th>
                     <th>Pr</th>
-                    
+
                 </tr>
                 <tr>
                     <td>Wos</td>
@@ -144,7 +150,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    
+
                 </tr>
                 <tr>
                     <td>Papo</td>
@@ -155,7 +161,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    
+
                 </tr>
                 <tr>
                     <td>MKS</td>
@@ -166,7 +172,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    
+
                 </tr>
                 <tr>
                     <td>Replik</td>
@@ -177,7 +183,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    
+
                 </tr>
                 <tr>
                     <td>Dtoke</td>
@@ -188,7 +194,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    
+
                 </tr>
                 <tr>
                     <td>Dani</td>
@@ -241,72 +247,92 @@
                     <td></td>
                 </tr>
             </table>
+        </article>
         </section>
 
         <!--divisor de secciones-->
-        <div>
+        <div class="divisor-de-sec">
             <h2>Jornadas de la primera temporada</h2>
-            </div>
+        </div>
         <!--Inicio de la seccion de tarjetas de jornadas-->
-        
-<section>
-            
-            <article>
-                <a href="./jornadas/jornada1.html"><img src="../../../imagenes/temporada1/jornada1t1.jpg" alt="">
-                    <h3>Ver Jornada 1</h3>
+
+        <section>
+
+            <article class="tarjeta">
+                <a href="./jornadas/jornada1.html"><img class="tarjeta__img"
+                        src="../../../imagenes/temporada1/jornada1t1.jpg" alt="">
+                    <div class="tarjeta__cuerpo">
+                        <h3 class="tarjeta__boton">Ver Jornada 1</h3>
+                    </div>
                 </a>
             </article>
 
-            <article>
-                <a href=""><img src="../../../imagenes/temporada1/portadajornada2t1.jpg" alt="">
-                    <h3>Ver Jornada 2</h3>
+            <article class="tarjeta">
+                <a href=""><img class="tarjeta__img" src="../../../imagenes/temporada1/portadajornada2t1.jpg" alt="">
+                    <div class="tarjeta__cuerpo">
+                        <h3 class="tarjeta__boton">Ver Jornada 2</h3>
+                    </div>
                 </a>
             </article>
 
-            <article>
-                <a href=""><img src="../../../imagenes/temporada1/portadat1j3.jpg" alt="">
-                    <h3>Ver Jornada 3</h3>
+            <article class="tarjeta">
+                <a href=""><img class="tarjeta__img" src="../../../imagenes/temporada1/portadat1j3.jpg" alt="">
+                    <div class="tarjeta__cuerpo">
+                        <h3 class="tarjeta__boton">Ver Jornada 3</h3>
+                    </div>
                 </a>
             </article>
 
-            <article>
-                <a href=""><img src="../../../imagenes/temporada1/portadat1j4.jpg" alt="">
-                    <h3>Ver Jornada 4</h3>
-                </a>
-            </article>
-
-
-            <article>
-                <a href=""><img src="../../../imagenes/temporada1/portadat1j5.jpg" alt="">
-                    <h3>Ver Jornada 5</h3>
-                </a>
-            </article>
-
-
-            <article>
-                <a href=""><img src="../../../imagenes/temporada1/portadat1j6.jpg" alt="">
-                    <h3>Ver Jornada 6</h3>
+            <article class="tarjeta">
+                <a href=""><img class="tarjeta__img" src="../../../imagenes/temporada1/portadat1j4.jpg" alt="">
+                    <div class="tarjeta__cuerpo">
+                        <h3 class="tarjeta__boton">Ver Jornada 4</h3>
+                    </div>
                 </a>
             </article>
 
 
-            <article>
-                <a href=""><img src="../../../imagenes/temporada1/portadat1j7.jpg" alt="">
-                    <h3>Ver Jornada 7</h3>
+            <article class="tarjeta">
+                <a href=""><img class="tarjeta__img" src="../../../imagenes/temporada1/portadat1j5.jpg" alt="">
+                    <div class="tarjeta__cuerpo">
+                        <h3 class="tarjeta__boton">Ver Jornada 5</h3>
+                    </div>
                 </a>
             </article>
 
 
-            <article>
-                <a href=""><img src="../../../imagenes/temporada1/portadat1j8.jpg" alt="">
-                    <h3>Ver Jornada 8</h3>
+            <article class="tarjeta">
+                <a href=""><img class="tarjeta__img" src="../../../imagenes/temporada1/portadat1j6.jpg" alt="">
+                    <div class="tarjeta__cuerpo">
+                        <h3 class="tarjeta__boton">Ver Jornada 6</h3>
+                    </div>
                 </a>
             </article>
 
 
-            <article>
-                <a href=""><img src="../../../imagenes/temporada1/portadajornada9.jpg" alt="">
-                    <h3>Ver Jornada 9</h3>
+            <article class="tarjeta">
+                <a href=""><img class="tarjeta__img" src="../../../imagenes/temporada1/portadat1j7.jpg" alt="">
+                    <div class="tarjeta__cuerpo">
+                        <h3 class="tarjeta__boton">Ver Jornada 7</h3>
+                    </div>
+                </a>
+            </article>
+
+
+            <article class="tarjeta">
+                <a href=""><img class="tarjeta__img" src="../../../imagenes/temporada1/portadat1j8.jpg" alt="">
+                    <div class="tarjeta__cuerpo">
+                        <h3 class="tarjeta__boton">Ver Jornada 8</h3>
+                    </div>
+                </a>
+            </article>
+
+
+            <article class="tarjeta">
+                <a href=""><img class="tarjeta__img" src="../../../imagenes/temporada1/portadajornada9.jpg" alt="">
+                    <div class="tarjeta__cuerpo">
+                        <h3 class="tarjeta__boton">Ver Jornada 9</h3>
+                    </div>
                 </a>
             </article>
 
@@ -319,36 +345,41 @@
         </div>
 
     </main>
-<!--Inicio del pei de pagina-->
-    <footer>
-        <img src="../../../imagenes/universales/logobibliotecadelfreestyle.jpg" alt="">
-        <div>
+    <!--Inicio del pei de pagina-->
+    <footer class="pie-de-pag">
+        <img class="pie-de-pag__img" src="../../../imagenes/universales/logobibliotecadelfreestyle.jpg" alt="">
+        <div class="pie-de-pag__div">
             Mas informacion acerca del formato y planillas de votacion
-            <a href="">Aprender mas</a>
+            <a class="pie-de-pag__boton" href="">Aprender mas</a>
         </div>
-        <div>
+        <div class="pie-de-pag__div">
             ¿Tiene alguna sugerencia, queja o quiere enviarnos material para sumar?
-            <a href="../../contacto.html">Enviar formulario</a>
+            <a class="pie-de-pag__boton" href="../../contacto.html">Enviar formulario</a>
         </div>
 
-        <div>
+        <div class="pie-de-pag__div">
             Otros contactos con nosotros
             <ul>
-                <li><a href="" target="_blank">Instagram</a></li>
-                <li><a href="" target="_blank">Twitter</a></li>
-                <li><a href="" target="_blank">bibliotecadelfreestyle@gmail.com</a></li>
+                <li><a class="pie-de-pag__link" href="" target="_blank">Instagram</a></li>
+                <li><a class="pie-de-pag__link" href="" target="_blank">Twitter</a></li>
+                <li><a class="pie-de-pag__link" href="" target="_blank">bibliotecadelfreestyle@gmail.com</a></li>
             </ul>
         </div>
 
-        <div>
+        <div class="pie-de-pag__div">
             Urban Roosters
             <ul>
-                <li><a href="https://www.instagram.com/urbanroosters/?hl=en" target="_blank">Instagram</a></li>
-                <li><a href="https://twitter.com/urbanroosters?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                <li><a class="pie-de-pag__link" href="https://www.instagram.com/urbanroosters/?hl=en"
+                        target="_blank">Instagram</a></li>
+                <li><a class="pie-de-pag__link"
+                        href="https://twitter.com/urbanroosters?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                         target="_blank">Twitter</a></li>
-                <li><a href="https://www.youtube.com/@Urbanroosters" target="_blank">Youtube</a></li>
-                <li><a href="https://www.urbanroosters.com/" target="_blank">Pagina Web</a></li>
-                <li><a href="https://www.facebook.com/urbanroosters/" target="_blank">Facebook</a></li>
+                <li><a class="pie-de-pag__link" href="https://www.youtube.com/@Urbanroosters"
+                        target="_blank">Youtube</a></li>
+                <li><a class="pie-de-pag__link" href="https://www.urbanroosters.com/" target="_blank">Pagina Web</a>
+                </li>
+                <li><a class="pie-de-pag__link" href="https://www.facebook.com/urbanroosters/"
+                        target="_blank">Facebook</a></li>
             </ul>
         </div>
     </footer>

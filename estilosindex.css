@@ -336,6 +336,14 @@ a {
 
 /*-----------------------------------------*/
 /*INICIO de los ARTICULOS*/
+/*generales*/
+.art-info-predet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1%;    
+}
+/*Para Index*/
 .art-info-in-ind {
     display: flex;
     flex-direction: column;
