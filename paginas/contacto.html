@@ -11,36 +11,39 @@
 
 <body>
 
-    <header>
-        <img src="../../../imagenes/universales/logobibliotecadelfreestyle.jpg" alt="Logo de biblioteca del freestyle">
-        <h1>Contactese con nosotros</h1>
+    <header class="encabezado">
+        <img class="encabezado__logo" src="../../../imagenes/universales/logobibliotecadelfreestyle.jpg" alt="Logo de biblioteca del freestyle">
+        <h1 class="encabezado__titulo">Contactese con nosotros</h1>
 
     </header>
-    <nav>
-        <ul>
-            <li><a href="../../../index.html">Inicio</a></li>
-            <li>Temporadas
+    <nav class="barra-nav">
+        <ul class="barra-nav__opciones">
+            <li class="barra-nav__opciones--inicio"><a href="../../../index.html">Inicio</a></li>
+            <li class="barra-nav__opciones--temporadas">Temporadas
                 <ul>
-                    <li><a href="./temporadas/temporada1/temporada1.html">Temporada 1</a></li>
-                    <li><a href="">Temporada 2</a></li>
-                    <li><a href="">Temporada 3</a></li>
-                    <li><a href="">Temporada 3</a></li>
+                    <li><a class="barra-nav__opciones--links" href="./temporadas/temporada1/temporada1.html">Temporada 1</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Temporada 2</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Temporada 3</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Temporada 3</a></li>
                 </ul>
             </li>
-            <li>Competidores
+            <li class="barra-nav__opciones--competidores" >Competidores
                 <ul>
-                    <li><a href="./competidores/wos.html">Wos</a></li>
-                    <li><a href="">Papo</a></li>
-                    <li><a href="">Trueno</a></li>
-                    <li><a href="">Stuart</a></li>
+                    <li><a class="barra-nav__opciones--links" href="./competidores/wos.html">Wos</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Papo</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Trueno</a></li>
+                    <li><a class="barra-nav__opciones--links" href="">Stuart</a></li>
                 </ul>
+                <li class="barra-nav__busc"> <label for="buscar">Busca algo en especifico?</label>
+            <form>
+                <input class="barra-nav__busc--input" id="buscar" type="search" placeholder="  Buscar...">
+                <input class="barra-nav__busc--boton" type="submit" >
+                
+              </form>
+            <li>
             </li>
         </ul>
-        <form action="">
-            <label for="buscar">Busca algo en especifico?</label>
-            <input class="boton-buscar" id="buscar" type="search" placeholder="  Buscar...">
-            <input type="submit">
-        </form>
+        
     </nav>
 
     <!--Fin de la Barra de navegacion-->
@@ -53,7 +56,7 @@
             </div>
 
             <article>
-                <h2>Formulario de contacto </h2>
+                <h2 class="divisor-de-sec">Formulario de contacto </h2>
                 <form action="">
 
                     <label for="motivodecontacto">¿Cual es el motivo de su contacto?</label>
@@ -95,35 +98,35 @@
             </article>
         </section>
     </main>
-    <footer>
-        <img src="../imagenes/universales/logobibliotecadelfreestyle.jpg" alt="Logo de biblioteca del freestyle">
-        <div>
+    <footer class="pie-de-pag">
+        <img class="pie-de-pag__img" src="../imagenes/universales/logobibliotecadelfreestyle.jpg" alt="Logo de biblioteca del freestyle">
+        <div class="pie-de-pag__div">
             Mas informacion acerca del formato y planillas de votacion
-            <a href="">Aprender mas</a>
+            <a class="pie-de-pag__boton" href="">Aprender mas</a>
         </div>
-        <div>
+        <div class="pie-de-pag__div">
             ¿Tiene alguna sugerencia, queja o quiere enviarnos material para sumar?
-            <a href="./contacto.html">Enviar formulario</a>
+            <a class="pie-de-pag__boton" href="./contacto.html">Enviar formulario</a>
         </div>
 
-        <div>
+        <div class="pie-de-pag__div">
             Otros contactos con nosotros
             <ul>
-                <li><a href="" target="_blank">Instagram</a></li>
-                <li><a href="" target="_blank">Twitter</a></li>
-                <li><a href="" target="_blank">bibliotecadelfreestyle@gmail.com</a></li>
+                <li><a class="pie-de-pag__link" href="" target="_blank">Instagram</a></li>
+                <li><a class="pie-de-pag__link" href="" target="_blank">Twitter</a></li>
+                <li><a class="pie-de-pag__link" href="" target="_blank">bibliotecadelfreestyle@gmail.com</a></li>
             </ul>
         </div>
 
-        <div>
+        <div class="pie-de-pag__div">
             Urban Roosters
             <ul>
-                <li><a href="https://www.instagram.com/urbanroosters/?hl=en" target="_blank">Instagram</a></li>
-                <li><a href="https://twitter.com/urbanroosters?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                <li><a class="pie-de-pag__link" href="https://www.instagram.com/urbanroosters/?hl=en" target="_blank">Instagram</a></li>
+                <li><a class="pie-de-pag__link" href="https://twitter.com/urbanroosters?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                         target="_blank">Twitter</a></li>
-                <li><a href="https://www.youtube.com/@Urbanroosters" target="_blank">Youtube</a></li>
-                <li><a href="https://www.urbanroosters.com/" target="_blank">Pagina Web</a></li>
-                <li><a href="https://www.facebook.com/urbanroosters/" target="_blank">Facebook</a></li>
+                <li><a class="pie-de-pag__link" href="https://www.youtube.com/@Urbanroosters" target="_blank">Youtube</a></li>
+                <li><a class="pie-de-pag__link" href="https://www.urbanroosters.com/" target="_blank">Pagina Web</a></li>
+                <li><a class="pie-de-pag__link" href="https://www.facebook.com/urbanroosters/" target="_blank">Facebook</a></li>
             </ul>
         </div>
     </footer>

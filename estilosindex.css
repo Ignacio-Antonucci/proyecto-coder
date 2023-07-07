@@ -274,7 +274,6 @@ a {
  .art-info-ini{
     grid-column: 1;
     grid-row: 1;
-    margin: 1rem;
 }
 .art-info-lall{
     grid-column: 1;
@@ -365,6 +364,7 @@ a {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-top: 2rem;
 }
 .art-info-lall{
     display: flex;
