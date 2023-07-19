@@ -54,6 +54,47 @@
     border-top-color: #f0e624;
 }
 
+@media(min-width: 758px){
+    .grilla-mc{
+       display: grid;
+       grid-template-columns: 70% 30%;
+       grid-template-rows: 25% 25% 25% 25%;
+    }
+.barra-lateral-mc{
+    display: flex;
+    flex-direction: column;
+    color: #c3bb38;
+    background-color: black;
+    
+    font-size: 2rem;
+    text-align: center;
+
+
+    grid-column: 2;
+    grid-row: 1/5;
+    
+ }
+ .art-info-ini{
+    grid-column: 1;
+    grid-row: 1;
+}
+.art-info-lall{
+    grid-column: 1;
+    grid-row: 2;
+    margin: 1rem;
+    }
+.art-info-dl{
+    grid-column: 1;
+    grid-row: 3;
+    margin: 1rem;
+    }
+.art-info-act{
+    grid-column: 1;
+    grid-row: 4;
+    margin: 1rem;
+    }
+}
+
 @media(min-width: 1200px){
     .grilla-mc{
        display: grid;
