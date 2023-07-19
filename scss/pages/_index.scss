@@ -1,0 +1,192 @@
+/*inicio barra lateral*/
+.barra-lateral-ind {
+    display: none;
+}
+
+
+/*articulos de informacion*/
+.art-info-in-ind {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1%;
+}
+
+.art-info-secu-ind {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1%;
+}
+
+/*inicio del divisor*/
+
+.divisor-secu-ind {
+    background-color: aqua;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.divisor-de-sec {
+    background-color: rgb(255, 255, 255);
+    border-top: 1.8rem solid rgb(10, 243, 243);
+    border-bottom: 1.8rem solid rgb(10, 243, 243);
+
+    text-align: center;
+    font-size: 2rem;
+    color: #c3bb38;
+}
+
+.divisor-in-ind {
+    margin-bottom: 1rem;
+    background-color: aqua;
+}
+
+
+
+.barra-lateral__iframe {
+    margin-left: 5%;
+    height: 300px;
+    width: 80%;
+    
+    
+}
+
+.barra-lateral__img {
+    
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+}
+
+.barra-lateral__titulo {
+    font-size: 2.7rem;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+
+.barra-lateral__link {
+    
+    color: #75711f;
+}
+
+
+/*Grilla index*/
+
+@media (min-width: 758px)  {
+
+    .grilla-in {
+        display: grid;
+        grid-template-columns: 70%  30%;
+        grid-template-rows: 2% 10% 2% 10% 8% 68%;
+    }
+        .barra-lateral-ind {
+            display: flex;
+            flex-direction: column;
+            color: #c3bb38;
+            background-color: black;
+    
+            font-size: 2rem;
+            text-align: center;
+            grid-column: 2;
+            grid-row: 1/7;
+
+        }
+        .divisor-in-ind{
+            grid-column: 1;
+            grid-row:1
+        }
+    
+        .art-info-secu-ind{
+            grid-column:1;
+            grid-row:4;
+        }
+        .divisor-de-sec {
+    
+            grid-column: 1;
+            grid-row: 5;
+        }
+    
+        .contenedor-tarj{
+            grid-column: 1;
+            grid-row: 6;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 4rem;
+        }
+        .tarjeta {
+        width: 29%;
+        height: 30%;
+        }
+        .tarjeta__img {
+        width: 100%;
+        height: 60%;
+        }
+        .tarjeta__boton{
+        height: 60%;
+        width: 50%;
+        margin: 5%;
+        }    
+    }
+
+
+@media (min-width: 1200px) {
+
+    .grilla-in {
+        display: grid;
+        grid-template-columns: 70%  30%;
+        grid-template-rows: 2% 10% 2% 10% 8% 68%;
+    }
+        .barra-lateral-ind {
+            display: flex;
+            flex-direction: column;
+            color: #c3bb38;
+            background-color: black;
+    
+            font-size: 2rem;
+            text-align: center;
+            grid-column: 2;
+            grid-row: 1/7;
+
+        }
+        .divisor-in-ind{
+            grid-column: 1;
+            grid-row:1
+        }
+    
+        .art-info-secu-ind{
+            grid-column:1;
+            grid-row:4;
+        }
+        .divisor-de-sec {
+    
+            grid-column: 1;
+            grid-row: 5;
+        }
+    
+        .contenedor-tarj{
+            grid-column: 1;
+            grid-row: 6;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 4rem;
+        }
+        .tarjeta {
+        width: 29%;
+        height: 30%;
+        }
+        .tarjeta__img {
+        width: 100%;
+        height: 60%;
+        }
+        .tarjeta__boton{
+        height: 60%;
+        width: 50%;
+        margin: 5%;
+        }    
+    }
+
+

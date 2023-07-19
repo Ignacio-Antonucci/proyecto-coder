@@ -1,0 +1,96 @@
+/*inicio de la secciones*/
+.sec-info-mc {
+    margin-top: 1rem;
+
+}
+
+/*fin de las secciones*/
+.art-info-ini{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.art-info-lall{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.art-info-dl{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.art-info-act{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+/**/
+
+
+.art-info__texto {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.art-info__img {
+    
+    width: 200px;
+    margin: 20px;
+}
+.art-info__img--campeon {
+    
+    width: 200px;
+    margin: 20px;
+    border: solid;
+    border-style:groove;
+    border-width: 20px;
+    border-color: rgb(114, 69, 10);
+    border-top-color: #f0e624;
+}
+
+@media(min-width: 1200px){
+    .grilla-mc{
+       display: grid;
+       grid-template-columns: 70% 30%;
+       grid-template-rows: 25% 25% 25% 25%;
+    }
+.barra-lateral-mc{
+    display: flex;
+    flex-direction: column;
+    color: #c3bb38;
+    background-color: black;
+    
+    font-size: 2rem;
+    text-align: center;
+
+
+    grid-column: 2;
+    grid-row: 1/5;
+    
+ }
+ .art-info-ini{
+    grid-column: 1;
+    grid-row: 1;
+}
+.art-info-lall{
+    grid-column: 1;
+    grid-row: 2;
+    margin: 1rem;
+    }
+.art-info-dl{
+    grid-column: 1;
+    grid-row: 3;
+    margin: 1rem;
+    }
+.art-info-act{
+    grid-column: 1;
+    grid-row: 4;
+    margin: 1rem;
+    }
+}

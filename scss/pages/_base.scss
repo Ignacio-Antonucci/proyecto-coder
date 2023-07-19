@@ -1,0 +1,249 @@
+/*Variables*/
+$color-predet-f: #c3bb38;
+$color-predet-FondB:#f0e624;
+$color-predet-fB:#575319;
+
+$color-Ftit: $color-predet-f;
+$color-FondS: white;
+$color-BordS: 7vw solid rgb(10, 243, 243) ;
+
+$color-barra-nav: black;
+$color-FOp:aqua;
+$color-FIn: white;
+$color-FLi: $color-predet-f;
+
+$color-barra-lat:black;
+
+$color-FP:aqua;
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Encabezado*/
+
+.encabezado {
+
+    display: flex;
+    flex-direction: row;
+
+
+    &__logo{
+        width: 20%;
+        
+    }
+
+    &__titulo {
+        background-color: $color-FondS;
+        border-top: $color-BordS;
+        border-bottom: $color-BordS;
+        width: 100%;
+        
+        padding: 1%;
+        text-align: center;
+        font-size: 5vw;
+        color: $color-Ftit;
+    }
+}
+
+
+/*Barra de Navegacion*/
+
+.barra-nav{
+    display: flex;
+    flex-direction: column;
+    background-color: $color-barra-nav;
+
+    &__opciones{
+        text-align: center;
+        font-size: 1.2rem;
+        color: $color-FOp;
+        
+        &--inicio{
+            font-size: 1.2rem;
+            color: $color-FIn;
+        }
+
+        &--links{
+            color: $color-FLi;
+            font-size: 1rem;
+            text-decoration: underline;
+        }
+    }
+    
+    &__busc{
+        display: none;
+    }
+
+    @media(min-width: 758px){
+        &{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        &__opciones{
+            display: flex;
+            font-size: 3rem;
+            padding: 2%;
+        
+            &--inicio{
+                font-size: 3rem;
+                padding: 1rem;
+            }
+
+            &--temporadas{
+                font-size: 3rem;
+                padding: 1rem;
+            }
+
+            &--competidores{
+                font-size: 3rem;
+                padding: 1rem;
+            }
+
+            &--links{
+                font-size: 2rem;
+            }
+        }
+        &__busc{
+            display: flex;
+            flex-direction: column;
+            font-size: 2.5rem;
+            color: white;
+            padding: 2%;
+
+
+            &--input {
+                font-size: 1rem;
+                border-radius: 50px;
+                width: 200px;
+                height: 50px;
+            }
+
+            &--boton {
+                border-radius: 50px;
+                width: 80px;
+                height: 30px;
+                background-color: $color-predet-fB;
+                font-size: 1rem;
+            }
+        }
+
+    }
+}
+/*articulos residuales de momento*/
+.art-info-predet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;    
+}
+
+/*TITULOS*/
+
+.art-info__tit {
+    font-size: 2.4rem;
+    color: #999215;
+}
+/*titulo fondo negro*/
+
+.art-info__tit-fn {
+    font-size: 2.4rem;
+    color: #f0e624;
+    background-color: black;
+}
+
+
+/*Pie de pagina*/
+.pie-de-pag {
+    background-color: $color-FP;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__img{
+        border-radius: 100%;
+
+        margin-top: 5%;
+    
+        height: 30%;
+        width: 30%;
+    }
+
+    &__div{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0.9rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    &__boton{
+        background-color: $color-predet-FondB;
+
+        text-align: center;
+    
+        border-radius: 30%;
+        border: solid;
+        border-style: double;
+        color: $color-predet-fB;
+    
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    &__link{
+        background-color: rgba(159, 180, 37, 0.315);
+        color: #13545f;
+    }
+
+    @media (min-width: 758px) {
+        &{
+            display: flex;
+            flex-direction: row;
+
+            &__img {
+                margin-top: none;
+                width: 9%;
+                height: 9%;
+            }
+            &__div{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+.divisor-secu-ind {
+    background-color: aqua;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.divisor-de-sec {
+    background-color: rgb(255, 255, 255);
+    border-top: 1.8rem solid rgb(10, 243, 243);
+    border-bottom: 1.8rem solid rgb(10, 243, 243);
+
+    text-align: center;
+    font-size: 2rem;
+    color: #c3bb38;
+}
+
+.divisor-in-ind {
+    margin-bottom: 1rem;
+    background-color: aqua;
+}
