@@ -9,7 +9,7 @@
     <title>Contacto con nosotros</title>
 </head>
 
-<body>
+<body class="color-contacto">
 
     <header class="encabezado">
         <img class="encabezado__logo" src="../../../imagenes/universales/logobibliotecadelfreestyle.jpg" alt="Logo de biblioteca del freestyle">
@@ -47,18 +47,14 @@
     </nav>
 
     <!--Fin de la Barra de navegacion-->
-    <main>
-        <section>
-            <div>
-                <span>
-                    Muchas Gracias por su contacto, por favor complete el formulario a continuacion
-                </span>
-            </div>
+    <main >  
+          <h2 class="indicador-formulario">Formulario de contacto </h2>
+        
+          <section class="contacto">
+            <article>     
 
-            <article>
-                <h2 class="divisor-de-sec">Formulario de contacto </h2>
+                <div class="formulario">
                 <form action="">
-
                     <label for="motivodecontacto">¿Cual es el motivo de su contacto?</label>
                     <select name="motivo" id="motivodecontacto">
                         <option value="quejas">Queja</option>
@@ -94,7 +90,9 @@
                     <br>
                     <input type="submit">
                     <input type="reset">
+                
                 </form>
+            </div>
             </article>
         </section>
     </main>

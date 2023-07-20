@@ -565,5 +565,44 @@ a {
     margin-bottom: 8rem;
   }
 }
+.indicador-formulario {
+  background-color: rgb(255, 255, 255);
+  border-top: 1.8rem solid rgb(10, 243, 243);
+  border-bottom: 1.8rem solid rgb(10, 243, 243);
+  text-align: center;
+  font-size: 2rem;
+  color: #c3bb38;
+}
+
+.color-contacto {
+  background-color: rgb(39, 36, 36);
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario {
+  color: #b6b043;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 2rem;
+  background-color: grey;
+  margin: 2%;
+}
+
+@media (min-width: 758px) {
+  .formulario {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .formulario {
+    font-size: 1.6rem;
+  }
+}
 
 /*# sourceMappingURL=estilosindex.css.map */
