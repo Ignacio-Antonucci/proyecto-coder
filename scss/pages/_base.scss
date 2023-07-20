@@ -4,6 +4,7 @@ $color-predet-FondB:#f0e624;
 $color-predet-fB:#575319;
 $color-predet-f-con:#b6b043;
 
+
 $color-Ftit: $color-predet-f;
 $color-FondS: white;
 $color-BordS: 7vw solid rgb(10, 243, 243) ;
@@ -209,7 +210,50 @@ a {
     background-color: black;
 }
 
+.divisor-de-sec {
+    background-color: rgb(255, 255, 255);
+    border-top: 1.8rem solid rgb(10, 243, 243);
+    border-bottom: 1.8rem solid rgb(10, 243, 243);
 
+    text-align: center;
+    font-size: 2rem;
+    color: $color-predet-f;
+}
+
+.atras-sig{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    &__atras{
+    height: 100%;
+        width: 100%;
+        
+        font-size: 0.9rem;
+        text-align: center;
+
+        background-color: rgb(231, 228, 228);
+        color: black;
+        padding: 0.5rem 1rem;
+        border: 2px solid rgb(10, 243, 243);
+        margin: 10%;
+        border-radius: 10%;
+    }
+
+    &__sig{
+        height: 100%;
+            width: 100%;
+            
+            font-size: 0.9rem;
+            text-align: center;
+    
+            background-color: rgb(231, 228, 228);
+            color: black;
+            padding: 0.5rem 1rem;
+            border: 2px solid rgb(10, 243, 243);
+            margin: 10%;
+            border-radius: 10%;
+        }
+}
 /*Pie de pagina*/
 .pie-de-pag {
     background-color: $color-FP;
@@ -270,24 +314,4 @@ a {
     }
 }
 
-.divisor-secu-ind {
-    background-color: aqua;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    text-align: center;
-}
 
-.divisor-de-sec {
-    background-color: rgb(255, 255, 255);
-    border-top: 1.8rem solid rgb(10, 243, 243);
-    border-bottom: 1.8rem solid rgb(10, 243, 243);
-
-    text-align: center;
-    font-size: 2rem;
-    color: #c3bb38;
-}
-
-.divisor-in-ind {
-    margin-bottom: 1rem;
-    background-color: aqua;
-}

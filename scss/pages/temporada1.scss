@@ -1,0 +1,72 @@
+.barra-lateral-temp {
+    display: none;
+    color: $color-predet-f;
+    background-color: $color-barra-lat;
+
+    font-size: 1rem;
+    text-align: center;
+    
+    &__img {
+        
+        height: 100%;
+        width: 100%;
+        padding: 10%;
+    }
+    
+
+}
+.art-info-temp1-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;  
+    
+    &__tit{
+        text-align: center;
+        font-size: 2.6rem;
+        color: $color-predet-f;
+     }  
+}
+
+.art-info-temp1-ele{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;    
+
+
+ &__tit{
+    font-size: 2rem;
+    color: $color-predet-f;
+ }
+
+ &__comp{
+    font-size: 1.5rem;
+    color: $color-predet-f;
+ }
+ &__img{
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+ }
+
+ &__mc{
+    height: 100%;
+    width: 100%;
+    padding: 10%;
+ }
+}
+
+.divisor-de-sec-temp1 {
+    background-color: $color-FondS;
+    border-top:  $color-BordS;
+    border-bottom: $color-BordS;
+
+    text-align: center;
+    font-size: 1.5rem;
+    color: $color-predet-f;
+}
+
+.seccion-jornadas{
+    padding: 1%;
+}
