@@ -232,8 +232,8 @@ a {
   margin-right: auto;
   margin-bottom: 30px;
   border: 3px solid rgb(10, 243, 243);
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -250,6 +250,7 @@ a {
 .tarjeta__boton {
   height: 50%;
   width: 50%;
+  font-size: 0.9rem;
   text-align: center;
   background-color: rgb(231, 228, 228);
   color: black;
@@ -262,6 +263,28 @@ a {
 /*inicio barra lateral*/
 .barra-lateral-ind {
   display: none;
+  color: #c3bb38;
+  background-color: black;
+  font-size: 1rem;
+  text-align: center;
+}
+.barra-lateral-ind__iframe {
+  margin-left: 5%;
+  height: 80%;
+  width: 80%;
+}
+.barra-lateral-ind__img {
+  height: 100%;
+  width: 100%;
+  padding: 10%;
+}
+.barra-lateral-ind__titulo {
+  font-size: 1.8rem;
+  text-decoration: underline;
+  margin-bottom: 5%;
+}
+.barra-lateral-ind__link {
+  color: #75711f;
 }
 
 /*articulos de informacion*/
@@ -298,29 +321,7 @@ a {
 
 .divisor-in-ind {
   margin-bottom: 1rem;
-  background-color: aqua;
-}
-
-.barra-lateral__iframe {
-  margin-left: 5%;
-  height: 300px;
-  width: 80%;
-}
-
-.barra-lateral__img {
-  height: 100%;
-  width: 100%;
-  padding: 10%;
-}
-
-.barra-lateral__titulo {
-  font-size: 2.7rem;
-  text-decoration: underline;
-  margin-bottom: 5%;
-}
-
-.barra-lateral__link {
-  color: #75711f;
+  background-color: 7vw solid rgb(10, 243, 243);
 }
 
 /*Grilla index*/
@@ -328,15 +329,11 @@ a {
   .grilla-in {
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 2% 10% 2% 10% 8% 68%;
+    grid-template-rows: 2% 14% 2% 17% 8% 57%;
   }
   .barra-lateral-ind {
     display: flex;
     flex-direction: column;
-    color: #c3bb38;
-    background-color: black;
-    font-size: 2rem;
-    text-align: center;
     grid-column: 2;
     grid-row: 1/7;
   }
@@ -349,6 +346,7 @@ a {
     grid-row: 4;
   }
   .divisor-de-sec {
+    font-size: 1rem;
     grid-column: 1;
     grid-row: 5;
   }
@@ -361,8 +359,8 @@ a {
     gap: 4rem;
   }
   .tarjeta {
-    width: 29%;
-    height: 30%;
+    width: 40%;
+    height: 35%;
   }
   .tarjeta__img {
     width: 100%;
@@ -372,23 +370,20 @@ a {
     height: 60%;
     width: 50%;
     margin: 5%;
+    font-size: 0.5rem;
   }
 }
 @media (min-width: 1200px) {
   .grilla-in {
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 2% 10% 2% 10% 8% 68%;
+    grid-template-rows: 2% 10% 2% 14% 8% 64%;
   }
   .barra-lateral-ind {
-    display: flex;
-    flex-direction: column;
-    color: #c3bb38;
-    background-color: black;
     font-size: 2rem;
-    text-align: center;
-    grid-column: 2;
-    grid-row: 1/7;
+  }
+  .barra-lateral-ind__titulo {
+    font-size: 3rem;
   }
   .divisor-in-ind {
     grid-column: 1;
@@ -399,6 +394,8 @@ a {
     grid-row: 4;
   }
   .divisor-de-sec {
+    font-size: 2rem;
+    padding-bottom: 2%;
     grid-column: 1;
     grid-row: 5;
   }
@@ -422,6 +419,28 @@ a {
     height: 60%;
     width: 50%;
     margin: 5%;
+    font-size: 0.98rem;
+  }
+}
+@media (min-width: 1407px) {
+  .grilla-in {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 2% 24% 2% 24% 18% 30%;
+  }
+  .divisor-de-sec {
+    padding-top: 5%;
+    font-size: 5rem;
+  }
+  .contenedor-tarj {
+    gap: none;
+  }
+  .tarjeta {
+    width: 20%;
+    height: 70%;
+  }
+  .tarjeta__boton {
+    font-size: 1rem;
   }
 }
 /*inicio de la secciones*/
