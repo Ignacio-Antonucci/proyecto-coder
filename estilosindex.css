@@ -582,19 +582,18 @@ a {
   text-align: center;
 }
 .barra-lateral-j1__iframe {
-  margin-left: 5%;
-  height: 80%;
-  width: 80%;
-}
-.barra-lateral-j1__img {
   height: 100%;
   width: 100%;
-  padding: 10%;
+}
+.barra-lateral-j1__img {
+  align-items: center;
+  height: 100%;
+  width: 90%;
+  padding: 1%;
 }
 .barra-lateral-j1__titulo {
   font-size: 1.8rem;
   text-decoration: underline;
-  margin-bottom: 5%;
 }
 .barra-lateral-j1__link {
   color: #75711f;
@@ -745,6 +744,18 @@ a {
   padding: 5%;
 }
 
+@media (min-width: 758px) {
+  .grilla-j1 {
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 10% 5% 73% 7% 1%;
+  }
+}
+@media (min-width: 1200px) {
+  .grilla-j1 {
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 10% 5% 73% 7% 1%;
+  }
+}
 .barra-lateral-temp {
   display: none;
   color: #c3bb38;
@@ -796,9 +807,9 @@ a {
 }
 
 .divisor-de-sec-temp1 {
-  background-color: white;
-  border-top: 7vw solid rgb(10, 243, 243);
-  border-bottom: 7vw solid rgb(10, 243, 243);
+  background-color: aqua;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-align: center;
   font-size: 1.5rem;
   color: #c3bb38;
@@ -808,6 +819,108 @@ a {
   padding: 1%;
 }
 
+@media (min-width: 758px) {
+  .grilla-temp {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2% 72% 3% 20% 1%;
+  }
+  .art-info-temp1-in {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .art-info-temp1-ele {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    align-items: center;
+  }
+  .art-info-temp1-ele__img {
+    width: 500px;
+    height: 400px;
+  }
+  .art-info-temp1-ele__mc {
+    width: 500px;
+    height: 400px;
+  }
+  .divisor-de-sec-temp1 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .seccion-jornadas {
+    grid-column: 1/2;
+    grid-row: 4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    padding: 1%;
+  }
+  .tarjeta {
+    height: 25%;
+    width: 20%;
+  }
+  .tarjeta__img {
+    height: 100px;
+  }
+  .tarjeta__boton {
+    padding-bottom: 3%;
+    margin: 0px;
+  }
+  .atras-sig {
+    grid-column: 1;
+    grid-row: 5;
+  }
+}
+@media (min-width: 1200px) {
+  .grilla-temp {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2% 68% 3% 26% 1%;
+  }
+  .art-info-temp1-in {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .art-info-temp1-ele {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .art-info-temp1-ele__img {
+    width: 500px;
+    height: 400px;
+  }
+  .art-info-temp1-ele__mc {
+    width: 500px;
+    height: 400px;
+  }
+  .divisor-de-sec-temp1 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .seccion-jornadas {
+    grid-column: 1/2;
+    grid-row: 4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    padding: 1%;
+  }
+  .tarjeta {
+    height: 25%;
+    width: 20%;
+  }
+  .tarjeta__img {
+    height: 150px;
+  }
+  .atras-sig {
+    grid-column: 1;
+    grid-row: 5;
+  }
+}
 .indicador-formulario {
   background-color: rgb(255, 255, 255);
   border-top: 1.8rem solid rgb(10, 243, 243);

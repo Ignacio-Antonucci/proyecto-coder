@@ -1,3 +1,4 @@
+
 .barra-lateral-temp {
     display: none;
     color: $color-predet-f;
@@ -58,10 +59,9 @@
 }
 
 .divisor-de-sec-temp1 {
-    background-color: $color-FondS;
-    border-top:  $color-BordS;
-    border-bottom: $color-BordS;
-
+    background-color: aqua;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     text-align: center;
     font-size: 1.5rem;
     color: $color-predet-f;
@@ -70,3 +70,124 @@
 .seccion-jornadas{
     padding: 1%;
 }
+@media (min-width: 758px){
+    .grilla-temp {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 2% 72% 3% 20% 1%; 
+    }
+
+    
+        .art-info-temp1-in{
+            grid-column:1;
+            grid-row:1;
+        }
+
+        .art-info-temp1-ele{
+            grid-column: 1;
+            grid-row: 2;
+            display: flex;
+            
+            align-items: center;
+            &__img{
+                width:500px;
+                height: 400px;
+            }
+          &__mc{
+            width: 500px;
+            height: 400px;
+          }
+        }
+ 
+        .divisor-de-sec-temp1{
+            grid-column: 1;
+            grid-row: 3;
+        }
+        .seccion-jornadas{
+            grid-column: 1/2;
+            grid-row: 4;
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            gap: 0.2rem;
+            padding: 1%;
+
+            
+        }
+        .tarjeta{
+            height: 25%;
+            width: 20%;
+            &__img{
+                height: 100px;
+            }
+            &__boton{
+                padding-bottom: 3%;
+                margin: 0px;
+            }
+        }
+        .atras-sig{
+            grid-column: 1;
+            grid-row: 5;
+        }
+}
+
+@media (min-width: 1200px){
+    .grilla-temp {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 2% 68% 3% 26% 1%; 
+    }
+
+    
+        .art-info-temp1-in{
+            grid-column:1;
+            grid-row:1;
+        }
+
+        .art-info-temp1-ele{
+            grid-column: 1;
+            grid-row: 2;
+            display: flex;
+            
+            flex-wrap:wrap;
+            
+            &__img{
+                width:500px;
+                height: 400px;
+            }
+          &__mc{
+            width: 500px;
+            height: 400px;
+          }
+        }
+ 
+        .divisor-de-sec-temp1{
+            grid-column: 1;
+            grid-row: 3;
+        }
+        .seccion-jornadas{
+            grid-column: 1/2;
+            grid-row: 4;
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            gap: 0.2rem;
+            padding: 1%;
+
+            
+        }
+        .tarjeta{
+            height: 25%;
+            width: 20%;
+            &__img{
+                height: 150px;
+            }
+         
+        }
+        .atras-sig{
+            grid-column: 1;
+            grid-row: 5;
+            
+        }
+}
+
