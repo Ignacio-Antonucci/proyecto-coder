@@ -78,7 +78,7 @@
     .grilla-in {
         display: grid;
         grid-template-columns: 70%  30%;
-        grid-template-rows: 2% 14% 2% 17% 8% 57%;
+        grid-template-rows: 1fr;
     }
         .barra-lateral-ind {
             display: flex;
@@ -126,6 +126,11 @@
         margin: 5%;
         font-size: 0.5rem;
         }    
+
+        .pie-de-pag{
+            grid-column: 1/2;
+            grid-row:7 ;
+        }
     }
 
 
