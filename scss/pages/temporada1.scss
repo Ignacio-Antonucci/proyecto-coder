@@ -15,23 +15,7 @@
  
 }
 
-.barra-lateral-temp {
-    display: none;
-    color: $color-predet-f;
-    background-color: $color-barra-lat;
 
-    font-size: 1rem;
-    text-align: center;
-    
-    &__img {
-        
-        height: 100%;
-        width: 100%;
-        padding: 10%;
-    }
-    
-
-}
 .art-info-temp1-in{
     display: flex;
     flex-direction: column;
