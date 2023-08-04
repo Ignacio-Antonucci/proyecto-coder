@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1%;
 
 }
 
@@ -27,7 +28,9 @@
     gap: 2rem;
     background-color: grey;
     margin: 2%;
-    
+    padding: 2%;
+    border: solid;
+    border-color: aqua;
 }
 
 @media (min-width: 758px){
